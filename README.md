@@ -38,7 +38,7 @@ npm install pomelo-loader
 ``` javascript
 var Loader = require('pomelo-loader');
 
-var res = Loader.load('.');
+var res = Loader.load('.');		// 此函数会运行目录下面的js文件
 console.log('res: %j', res);
 ```
 
